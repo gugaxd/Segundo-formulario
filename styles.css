@@ -1,0 +1,76 @@
+body{
+    font-family: arial;
+    background: linear-gradient(to right, rgb(34, 25, 59), rgb(47, 25, 59));
+}
+
+.box{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 20%;
+}
+
+fieldset{
+    border: 2px solid #8953a6;
+}
+
+legend{
+    border: 2px solid #8953a6;
+    background: #8953a6;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.textinputs{
+    position: relative;
+}
+
+.inputdados{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid #8953a6;
+    width: 100%;
+    font-size: 15px;
+}
+
+.inputlabels{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    transition: 1s;
+    pointer-events: none;
+    font-size: 12px;
+    color: #d7aded;
+}
+
+#botao{
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, rgb(138, 73, 173), rgb(91, 73, 173));
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#botao:hover{
+    background: linear-gradient(to right, rgb(95, 48, 120), rgb(62, 49, 117));
+    cursor: pointer;
+}
+
+#datanascimento{
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+}
